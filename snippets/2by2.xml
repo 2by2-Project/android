@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="2by2"
+          fetch="https://github.com/"
+          revision="refs/heads/14" />
+
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
+  <project path="build/make" name="2by2-Project/android_build" groups="pdk" remote="2by2" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!-- 2by2 Project -->
+  <project path="frameworks/base" name="2by2-Project/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="2by2" />
+
+  <project path="vendor/2by2" name="2by2-Project/android_vendor_2by2" remote="2by2" />
+  <project path="vendor/lineage" name="2by2-Project/android_vendor_crdroid" remote="2by2" />
+
+  <project path="packages/apps/crDroidSettings" name="2by2-Project/android_packages_apps_crDroidSettings" remote="2by2" />
+
+  <!-- Gapps -->
+  <project path="vendor/gms" name="2by2-Project/vendor_gms" revision="14" remote="gitlab" />
+
+  <!-- Gs Common -->
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" revision="lineage-21" remote="github" />
+
+</manifest>
