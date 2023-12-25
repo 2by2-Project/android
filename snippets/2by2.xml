@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="2by2"
+          fetch="https://github.com/"
+          revision="refs/heads/14" />
+
+  <!-- 2by2 Project -->
+  <project path="vendor/2by2" name="2by2-Project/android_vendor_2by2" remote="2by2" />
+  <project path="vendor/lineage" name="2by2-Project/android_vendor_lineage" remote="2by2" />
+
+</manifest>
