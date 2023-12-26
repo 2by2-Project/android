@@ -5,6 +5,8 @@
           fetch="https://github.com/"
           revision="refs/heads/14" />
 
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+
   <!-- 2by2 Project -->
   <project path="frameworks/base" name="2by2-Project/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="2by2" />
 
@@ -14,5 +16,8 @@
   <project path="packages/apps/Settings" name="2by2-Project/android_packages_apps_Settings" groups="pdk-fs" remote="2by2" />
   <project path="packages/apps/2byTricks" name="2by2-Project/android_packages_apps_2byTricks" remote="2by2" />
   <project path="packages/apps/SetupWizard" name="2by2-Project/android_packages_apps_SetupWizard" remote="2by2" />
+
+  <!-- Gapps -->
+  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="upsilon" remote="gitlab" />
 
 </manifest>
