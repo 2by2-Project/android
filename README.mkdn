@@ -1,4 +1,4 @@
-# 2by2 Project
+![2by2 Project](https://github.com/2by2-Project/android/raw/14/images/2by2-logo-landscape.png)
 
 ## 1. Grabbing the source ##
 
