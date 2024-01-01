@@ -29,4 +29,7 @@
   <!-- Gapps -->
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="upsilon" remote="gitlab" />
 
+  <!-- Gs Common -->
+  <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" revision="lineage-21" remote="github" />
+
 </manifest>
