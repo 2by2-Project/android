@@ -22,6 +22,7 @@
   <project path="vendor/2by2" name="2by2-Project/android_vendor_2by2" remote="2by2" />
   <project path="vendor/lineage" name="2by2-Project/android_vendor_crdroid" remote="2by2" />
 
+  <project path="packages/apps/Settings" name="2by2-Project/android_packages_apps_Settings" groups="pdk-fs" remote="2by2" />
   <project path="packages/apps/crDroidSettings" name="2by2-Project/android_packages_apps_crDroidSettings" remote="2by2" />
 
   <!-- Gapps -->
