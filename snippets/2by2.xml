@@ -38,4 +38,7 @@
   <!-- Gs Common -->
   <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" revision="lineage-21" remote="github" />
 
+  <!-- FeliCa Config -->
+  <project path="vendor/felica" name="2by2-Project/android_vendor_felica" revision="14" remote="2by2" />
+
 </manifest>
