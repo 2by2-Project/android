@@ -5,6 +5,8 @@
           fetch="https://github.com/"
           revision="refs/heads/14" />
 
+  <remote name="2by2-devices" fetch="https://github.com/2by2-Project-Devices/" />
+
   <remote name="gitlab" fetch="https://gitlab.com/" />
 
   <project path="bionic" name="2by2-Project/android_bionic" groups="pdk" remote="2by2" />
