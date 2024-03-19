@@ -37,7 +37,4 @@
   <!-- Gapps -->
   <project path="vendor/gapps" name="2by2-Project/android_vendor_gapps" revision="14" remote="gitlab" />
 
-  <!-- FeliCa Config -->
-  <project path="vendor/felica" name="2by2-Project/android_vendor_felica" revision="14" remote="2by2" />
-
 </manifest>
