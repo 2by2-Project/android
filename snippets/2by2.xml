@@ -27,6 +27,7 @@
 
   <!-- 2by2 Project -->
   <project path="frameworks/base" name="2by2-Project/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="2by2" />
+  <project path="frameworks/av" name="2by2-Project/android_frameworks_av" groups="pdk" remote="2by2" />
 
   <project path="vendor/2by2" name="2by2-Project/android_vendor_2by2" remote="2by2" />
   <project path="vendor/lineage" name="2by2-Project/android_vendor_crdroid" remote="2by2" />
