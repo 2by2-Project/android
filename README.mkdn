@@ -1,4 +1,4 @@
-LineageOS
+![2by2 Project](https://github.com/2by2-Project/android/raw/14/images/2by2-logo-landscape.png)
 ===========
 
 Getting started
@@ -8,7 +8,7 @@ To get started with Android/LineageOS, you'll need to get familiar with [Source 
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+repo init -u https://github.com/2by2-Project/android.git -b lineage-21.0 --git-lfs
 ```
 Then to sync up:
 ```
