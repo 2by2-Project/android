@@ -5,14 +5,24 @@
           fetch="https://github.com/"
           revision="refs/heads/14" />
 
+  <remote name="2by2-gitlab"
+          fetch="https://gitlab.com/"
+          revision="refs/heads/14" />
+
   <remote name="gitlab" fetch="https://gitlab.com/" />
 
   <!-- 2by2 Project -->
   <project path="vendor/2by2" name="2by2-Project/android_vendor_2by2" remote="2by2" />
-  <project path="vendor/lineage" name="2by2-Project/android_vendor_lineage" />
+  <project path="vendor/lineage" name="2by2-Project/android_vendor_lineage" remote="2by2" />
 
   <!-- Gapps -->
   <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" revision="upsilon" remote="gitlab" />
-  <project path="vendor/gms" name="2by2-Project/android_vendor_gms" revision="14" remote="gitlab" />
+  <project path="vendor/gms" name="2by2-Project/android_vendor_gms" remote="2by2-gitlab" />
+
+  <!-- Extra apps -->
+  <project path="vendor/2by2-prebuilt-apps" name="2by2-Project/android_vendor_2by2-prebuilt-apps" remote="2by2-gitlab" />
+
+  <!-- Keys -->
+  <project path="vendor/2by2-example-keys" name="2by2-Project/android_vendor_2by2-example-keys" remote="2by2" />
 
 </manifest>
