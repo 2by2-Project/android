@@ -25,4 +25,7 @@
   <!-- Keys -->
   <project path="vendor/2by2-example-keys" name="2by2-Project/android_vendor_2by2-example-keys" remote="2by2" />
 
+  <!-- OTA -->
+  <project path="vendor/2by2-ota" name="2by2-Project/android_vendor_2by2-ota" remote="2by2" revision="main" />
+
 </manifest>
