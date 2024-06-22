@@ -9,6 +9,11 @@
           fetch="https://gitlab.com/"
           revision="refs/heads/14" />
 
+  <remote name="clo-la"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false" />
+
   <remote name="gitlab" fetch="https://gitlab.com/" />
 
   <!-- 2by2 Project -->
@@ -27,5 +32,13 @@
 
   <!-- OTA -->
   <project path="vendor/2by2-ota" name="2by2-Project/android_vendor_2by2-ota" remote="2by2" revision="main" />
+
+  <!-- NXP -->
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="2by2-Project/android_vendor_nxp_opensource_packages_apps_Nfc" remote="2by2" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="2by2-Project/android_vendor_nxp_opensource_external_libnfc-nci" remote="2by2" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="2by2-Project/android_vendor_nxp_opensource_frameworks" remote="2by2" />
+  <project path="vendor/nxp/opensource/halimpl" name="platform/vendor/nxp/opensource/halimpl" revision="nfc-vendor.lnx.14.0.r4-rel" remote="clo-la" />
+  <project path="vendor/nxp/opensource/hidlimpl" name="platform/vendor/nxp/opensource/hidlimpl" revision="nfc-vendor.lnx.14.0.r4-rel" remote="clo-la" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="platform/vendor/nxp/interfaces/opensource/nfc" revision="nfc-sysintf.lnx.14.0.r2-rel" remote="clo-la" />
 
 </manifest>
