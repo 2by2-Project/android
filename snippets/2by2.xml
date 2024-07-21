@@ -25,8 +25,9 @@
   <!-- Extra apps -->
   <project path="vendor/2by2-prebuilt-apps" name="2by2-Project/android_vendor_2by2-prebuilt-apps" remote="2by2-gitlab" />
 
-  <!-- Keys -->
+  <!-- Certification -->
   <project path="vendor/2by2-example-keys" name="2by2-Project/android_vendor_2by2-example-keys" remote="2by2" />
+  <project path="vendor/certification" name="2by2-Project/android_vendor_certification" remote="2by2" />
 
   <!-- OTA -->
   <project path="vendor/2by2-ota" name="2by2-Project/android_vendor_2by2-ota" remote="2by2" revision="main" />
